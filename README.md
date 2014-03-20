@@ -1,11 +1,4 @@
 docker-elasticsearch
 ====================
 
-Open Source Docker ElasticSearch Container
-
-To build the image:
-
- $ docker build -t="elasticsearch" . 
-
-
- Requires ubuntu_base from https://github.com/GlobAllomeTree/docker-ubuntu-base
+This is a customized build of Elasticsearch with some plugins for geo clustering added in
