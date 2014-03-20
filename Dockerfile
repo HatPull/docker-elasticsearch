@@ -1,6 +1,6 @@
-FROM ubuntu_base 
+FROM tomgruner/globallometree-ubuntu-base
 
-MAINTAINER GlobAllomeTree "globallometree@fao.org"
+MAINTAINER Thomas Gruner "tom.gruner@gmail.com"
 
 # elasticsearch
 RUN curl http://packages.elasticsearch.org/GPG-KEY-elasticsearch | apt-key add -
