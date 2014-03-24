@@ -1,6 +1,6 @@
-FROM tomgruner/globallometree-base
+FROM xela7/hatpull-base
 
-MAINTAINER Thomas Gruner "tom.gruner@gmail.com"
+MAINTAINER Alex Tokar "alext@bitbamboo.com"
 
 # elasticsearch
 RUN curl http://packages.elasticsearch.org/GPG-KEY-elasticsearch | apt-key add -

@@ -1,4 +1,4 @@
-ELASTIC_TAG_NAME ?= tomgruner/globallometree-elasticsearch
+ELASTIC_TAG_NAME ?= xela7/hatpull-elasticsearch
 ELASTIC_CONTAINER_NAME ?= elasticsearch
 
 ELASTIC_BASE_PATH := $(abspath $(lastword $(MAKEFILE_LIST)))
