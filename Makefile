@@ -13,7 +13,7 @@ elastic-clean: elastic-stop
 
 elastic-run: elastic-clean
 	sudo mkdir -p /opt/data/elasticsearch
-	docker run -d -name ${ELASTIC_CONTAINER_NAME} -p ${ELASTICSEARCH_PORT}:9200 -v /opt/data/elasticsearch:/var/lib/elasticsearch ${ELASTIC_TAG_NAME}
+	docker run -d --name ${ELASTIC_CONTAINER_NAME} -p ${ELASTICSEARCH_PORT}:9200 -v /opt/data/elasticsearch:/var/lib/elasticsearch ${ELASTIC_TAG_NAME}
 
 elastic-stop:
 	-@docker stop ${ELASTIC_CONTAINER_NAME} 2>/dev/null || true
